@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to top,rgb(45, 94, 255), rgb(35, 204, 255));
+    padding-left: 25px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    color: lightcoral;
+    font-family: "Poppins", sans-serif;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+  }
+
+  h4 {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .afad {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .fd{
+      display: flex;
+      flex-direction: row;
+      gap: 10rem;
+      flex-wrap: wrap;
+  }
+
+  .fd1{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+  .afa{
+    font-family: "Fredoka", sans-serif;
+    text-decoration: none;
+    padding-right: 25px;
+  }
+
+  .container{
+      background-color: white;
+      width: 20rem;
+      max-height: 40rem;
+      border-radius: 5px;
+      padding-top: 15px;
+      margin-bottom: 5rem;
+      align-items: center;
+      box-shadow: 5px 5px rgba(0, 0, 0, 0.568);
+  }
+
+  .container:hover{
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.699);
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+  }
+  ol,
+  ul {
+    font-family: comic sans ms;
+    padding-bottom: 150px;
+  }
